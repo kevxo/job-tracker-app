@@ -23,7 +23,7 @@ class ApplicationUpdate(ApplicationBase):
 
 class ApplicationResponse(ApplicationBase):
     id: int
-    create_at: datetime
+    created_at: datetime
     updated_at: Optional[datetime] = None
 
     class Config:
