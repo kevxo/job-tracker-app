@@ -20,27 +20,27 @@ Designed as both a portfolio piece and a practical tool for managing a job searc
 ## Phase 1 — Project Setup
 - [x] Initialize Git repo with a clean `.gitignore`
 - [x] Scaffold `frontend/` with Vite + React + **TypeScript** + Tailwind CSS
-- [ ] Install `uv` and initialize backend Python project (`uv init`)
-- [ ] Scaffold `backend/` with FastAPI project structure using `uv`
-- [ ] Add dependencies via `uv add fastapi uvicorn sqlalchemy asyncpg python-dotenv`
-- [ ] Create a Supabase project and grab the connection string
-- [ ] Set up `.env` files for frontend and backend (store Supabase URL + keys)
+- [x] Install `uv` and initialize backend Python project (`uv init`)
+- [x] Scaffold `backend/` with FastAPI project structure using `uv`
+- [x] Add dependencies via `uv add fastapi uvicorn sqlalchemy asyncpg python-dotenv`
+- [x] Create a Supabase project and grab the connection string
+- [x] Set up `.env` files for frontend and backend (store Supabase URL + keys)
 ---
 
 ## Phase 2 — Backend (FastAPI + PostgreSQL)
-- [ ] Connect FastAPI to Supabase PostgreSQL using SQLAlchemy + asyncpg
-- [ ] Create `applications` table migration/schema
-- [ ] Define SQLAlchemy models (`Application`)
-- [ ] Define Pydantic schemas for request/response validation
-- [ ] Build CRUD endpoints:
+- [x] Connect FastAPI to Supabase PostgreSQL using SQLAlchemy + asyncpg
+- [x] Create `applications` table migration/schema
+- [x] Define SQLAlchemy models (`Application`)
+- [x] Define Pydantic schemas for request/response validation
+- [x] Build CRUD endpoints:
   - `GET /applications` — list all applications
   - `POST /applications` — create new application
   - `GET /applications/{id}` — get single application
   - `PUT /applications/{id}` — update application
   - `DELETE /applications/{id}` — delete application
-- [ ] Add filtering by status/company on list endpoint
+- [x] Add filtering by status/company on list endpoint
 - [ ] Write Pytest unit tests for all endpoints
-- [ ] Test API manually with Swagger UI (`/docs`)
+- [x] Test API manually with Swagger UI (`/docs`)
 ---
 
 ## Phase 3 — Frontend Shell (React)
