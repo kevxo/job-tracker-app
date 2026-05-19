@@ -39,7 +39,7 @@ Designed as both a portfolio piece and a practical tool for managing a job searc
   - `PUT /applications/{id}` — update application
   - `DELETE /applications/{id}` — delete application
 - [x] Add filtering by status/company on list endpoint
-- [ ] Write Pytest unit tests for all endpoints
+- [x] Write Pytest unit tests for all endpoints
 - [x] Test API manually with Swagger UI (`/docs`)
 ---
 
